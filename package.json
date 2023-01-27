@@ -1,0 +1,25 @@
+{
+  "name": "twilio-to-slack",
+  "version": "1.0.0",
+  "description": "A simple project to setup twilio to slack integration",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArcticGizmo/twilio-to-slack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArcticGizmo/twilio-to-slack/issues"
+  },
+  "homepage": "https://github.com/ArcticGizmo/twilio-to-slack#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "node-fetch": "^2.6.7",
+    "twilio": "^3.83.1"
+  }
+}
